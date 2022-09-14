@@ -1,6 +1,4 @@
-const log = (message) => {
-    console.log(`${new Date().toISOString()}: ${message}`);
-}
+import {log} from "./utils.mjs";
 
 let callback = () => log("Regular timeout callback has run");
 
